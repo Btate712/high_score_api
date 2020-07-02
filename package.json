@@ -1,0 +1,26 @@
+{
+  "name": "high_score_api",
+  "version": "1.0.0",
+  "description": "Express API for storing game high scores in a Mongo database",
+  "main": "index.js",
+  "scripts": {
+    "run": "start index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Btate712/high_score_api.git"
+  },
+  "author": "Bob Tate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Btate712/high_score_api/issues"
+  },
+  "homepage": "https://github.com/Btate712/high_score_api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
